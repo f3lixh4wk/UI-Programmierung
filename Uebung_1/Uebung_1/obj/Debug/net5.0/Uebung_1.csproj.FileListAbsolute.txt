@@ -14,3 +14,19 @@ D:\Dokumente\HAWK\WiSe 21-22\Userinterface Programmierung\Uebung_Praktikum\Aufga
 D:\Dokumente\HAWK\WiSe 21-22\Userinterface Programmierung\Uebung_Praktikum\Aufgabenstellung\Uebung_1\Uebung_1\obj\Debug\net5.0\ref\Uebung_1.dll
 D:\Dokumente\HAWK\WiSe 21-22\Userinterface Programmierung\Uebung_Praktikum\Aufgabenstellung\Uebung_1\Uebung_1\obj\Debug\net5.0\Uebung_1.pdb
 D:\Dokumente\HAWK\WiSe 21-22\Userinterface Programmierung\Uebung_Praktikum\Aufgabenstellung\Uebung_1\Uebung_1\obj\Debug\net5.0\Uebung_1.genruntimeconfig.cache
+C:\Users\phili\Documents\GitHub\UI-Programmierung\Uebung_1\Uebung_1\bin\Debug\net5.0\Uebung_1.exe
+C:\Users\phili\Documents\GitHub\UI-Programmierung\Uebung_1\Uebung_1\bin\Debug\net5.0\Uebung_1.deps.json
+C:\Users\phili\Documents\GitHub\UI-Programmierung\Uebung_1\Uebung_1\bin\Debug\net5.0\Uebung_1.runtimeconfig.json
+C:\Users\phili\Documents\GitHub\UI-Programmierung\Uebung_1\Uebung_1\bin\Debug\net5.0\Uebung_1.runtimeconfig.dev.json
+C:\Users\phili\Documents\GitHub\UI-Programmierung\Uebung_1\Uebung_1\bin\Debug\net5.0\Uebung_1.dll
+C:\Users\phili\Documents\GitHub\UI-Programmierung\Uebung_1\Uebung_1\bin\Debug\net5.0\ref\Uebung_1.dll
+C:\Users\phili\Documents\GitHub\UI-Programmierung\Uebung_1\Uebung_1\bin\Debug\net5.0\Uebung_1.pdb
+C:\Users\phili\Documents\GitHub\UI-Programmierung\Uebung_1\Uebung_1\obj\Debug\net5.0\Uebung_1.csproj.AssemblyReference.cache
+C:\Users\phili\Documents\GitHub\UI-Programmierung\Uebung_1\Uebung_1\obj\Debug\net5.0\Uebung_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\phili\Documents\GitHub\UI-Programmierung\Uebung_1\Uebung_1\obj\Debug\net5.0\Uebung_1.AssemblyInfoInputs.cache
+C:\Users\phili\Documents\GitHub\UI-Programmierung\Uebung_1\Uebung_1\obj\Debug\net5.0\Uebung_1.AssemblyInfo.cs
+C:\Users\phili\Documents\GitHub\UI-Programmierung\Uebung_1\Uebung_1\obj\Debug\net5.0\Uebung_1.csproj.CoreCompileInputs.cache
+C:\Users\phili\Documents\GitHub\UI-Programmierung\Uebung_1\Uebung_1\obj\Debug\net5.0\Uebung_1.dll
+C:\Users\phili\Documents\GitHub\UI-Programmierung\Uebung_1\Uebung_1\obj\Debug\net5.0\ref\Uebung_1.dll
+C:\Users\phili\Documents\GitHub\UI-Programmierung\Uebung_1\Uebung_1\obj\Debug\net5.0\Uebung_1.pdb
+C:\Users\phili\Documents\GitHub\UI-Programmierung\Uebung_1\Uebung_1\obj\Debug\net5.0\Uebung_1.genruntimeconfig.cache

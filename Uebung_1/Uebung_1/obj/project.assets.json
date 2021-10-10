@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\felix\\.nuget\\packages\\": {}
+    "C:\\Users\\phili\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dokumente\\HAWK\\WiSe 21-22\\Userinterface Programmierung\\Uebung_Praktikum\\Aufgabenstellung\\Uebung_1\\Uebung_1\\Uebung_1.csproj",
+      "projectUniqueName": "C:\\Users\\phili\\Documents\\GitHub\\UI-Programmierung\\Uebung_1\\Uebung_1\\Uebung_1.csproj",
       "projectName": "Uebung_1",
-      "projectPath": "D:\\Dokumente\\HAWK\\WiSe 21-22\\Userinterface Programmierung\\Uebung_Praktikum\\Aufgabenstellung\\Uebung_1\\Uebung_1\\Uebung_1.csproj",
-      "packagesPath": "C:\\Users\\felix\\.nuget\\packages\\",
-      "outputPath": "D:\\Dokumente\\HAWK\\WiSe 21-22\\Userinterface Programmierung\\Uebung_Praktikum\\Aufgabenstellung\\Uebung_1\\Uebung_1\\obj\\",
+      "projectPath": "C:\\Users\\phili\\Documents\\GitHub\\UI-Programmierung\\Uebung_1\\Uebung_1\\Uebung_1.csproj",
+      "packagesPath": "C:\\Users\\phili\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\phili\\Documents\\GitHub\\UI-Programmierung\\Uebung_1\\Uebung_1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\felix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\phili\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
