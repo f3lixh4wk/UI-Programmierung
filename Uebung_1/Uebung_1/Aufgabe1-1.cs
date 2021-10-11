@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Uebung_1
+namespace Aufgabe_1_1
 {
-   class Aufgabe1_1
+   class Program
    {
       static void Main()
       {
