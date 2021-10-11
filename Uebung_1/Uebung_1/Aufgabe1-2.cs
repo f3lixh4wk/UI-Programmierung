@@ -17,7 +17,7 @@ namespace Aufgabe_1_2
                 Console.WriteLine("Bitte geben Sie ihr Geburtsdatum ein (Format: DD.MM.JJJJ): ");
                 if(DateTime.TryParse(Console.ReadLine(), new CultureInfo("de-DE"), DateTimeStyles.None, out DateTime geburtsdatum))
                 {
-
+                    test.ZeichenkettenKorrigieren();
                     while (test.Gesamtspielzeit.TotalHours < 20) 
                     {
                         try
@@ -31,6 +31,8 @@ namespace Aufgabe_1_2
                             break;
                         }
                         Console.WriteLine(" ");
+                        Console.WriteLine($"Titel: {test.Titel}");
+                        Console.WriteLine($"Regisseur: {test.Regisseur}");
                         Console.WriteLine($"Gesamt Spielzeit: {test.Gesamtspielzeit}");
                         Console.WriteLine($"Wie häufig Abgespielt: {test.WieHäufigAbgespielt}");
                         Console.WriteLine($"All time favorite: {test.IstAllzeitFavorit}");
@@ -47,7 +49,7 @@ namespace Aufgabe_1_2
                     }
                     try
                     {
-                        test.Bewertung = (int)Film.Qualitätskategorie.SehrGut;
+                        test.Bewertung = (int)Film.Qualitätskategorie.Gut;
                         Console.WriteLine($"Bewertung: {((Film.Qualitätskategorie)test.Bewertung)}");
                     }
                     catch (ArgumentOutOfRangeException e)
@@ -92,7 +94,7 @@ namespace Aufgabe_1_2
             {
                 get => spielzeit;
             }
-            public TimeSpan Alter // Filmalter?
+            public TimeSpan Alter 
             {
                 get => DateTime.Today - releaseDatum;
             }
@@ -128,11 +130,9 @@ namespace Aufgabe_1_2
             public enum Qualitätskategorie
             {
                 Unbewertet,
-                SehrSchlecht,
                 Schlecht,
                 Mittelmäßig,
-                Gut,
-                SehrGut,
+                Gut
             }
 
             public Film(string titel, string regisseur, DateTime releaseDatum, TimeSpan spielzeit, byte mindestalter)

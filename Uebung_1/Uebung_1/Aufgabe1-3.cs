@@ -78,7 +78,7 @@ namespace Aufgabe_1_3
          set 
          {
             if (value < 0 || value > 5)
-               throw new ArgumentOutOfRangeException();
+               throw new ArgumentOutOfRangeException("Bewertung ungültig!");
             else
                bewertung = value;
          }
@@ -94,7 +94,7 @@ namespace Aufgabe_1_3
       public void Abspielen(DateTime geburtsdatum)
       {
          if (MindestalterErreicht(geburtsdatum) == false)
-            throw new InvalidOperationException();
+            throw new InvalidOperationException("Alter des Konsumenten entspricht nicht dem Mindestalter");
          else
             ++wieHäufigAbgespielt;
       }
