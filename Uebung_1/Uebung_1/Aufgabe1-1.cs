@@ -29,7 +29,7 @@ namespace Aufgabe_1_1
          set
          {
             if (value < 0 || value > 100)
-               throw new ArgumentOutOfRangeException("test");
+               throw new ArgumentOutOfRangeException("Wert nicht zulässig");
             else
                test = value;
          }
