@@ -1,0 +1,7 @@
+D:\Dokumente\HAWK\WiSe 21-22\Userinterface Programmierung\Uebung_Praktikum\Aufgabenstellung\UI-Programmierung\Uebung_3\Uebung_3\Aufgabe3-2\bin\Debug\Aufgabe3-2.exe.config
+D:\Dokumente\HAWK\WiSe 21-22\Userinterface Programmierung\Uebung_Praktikum\Aufgabenstellung\UI-Programmierung\Uebung_3\Uebung_3\Aufgabe3-2\bin\Debug\Aufgabe3-2.exe
+D:\Dokumente\HAWK\WiSe 21-22\Userinterface Programmierung\Uebung_Praktikum\Aufgabenstellung\UI-Programmierung\Uebung_3\Uebung_3\Aufgabe3-2\bin\Debug\Aufgabe3-2.pdb
+D:\Dokumente\HAWK\WiSe 21-22\Userinterface Programmierung\Uebung_Praktikum\Aufgabenstellung\UI-Programmierung\Uebung_3\Uebung_3\Aufgabe3-2\obj\Debug\Aufgabe3-2.csproj.AssemblyReference.cache
+D:\Dokumente\HAWK\WiSe 21-22\Userinterface Programmierung\Uebung_Praktikum\Aufgabenstellung\UI-Programmierung\Uebung_3\Uebung_3\Aufgabe3-2\obj\Debug\Aufgabe3-2.csproj.CoreCompileInputs.cache
+D:\Dokumente\HAWK\WiSe 21-22\Userinterface Programmierung\Uebung_Praktikum\Aufgabenstellung\UI-Programmierung\Uebung_3\Uebung_3\Aufgabe3-2\obj\Debug\Aufgabe3-2.exe
+D:\Dokumente\HAWK\WiSe 21-22\Userinterface Programmierung\Uebung_Praktikum\Aufgabenstellung\UI-Programmierung\Uebung_3\Uebung_3\Aufgabe3-2\obj\Debug\Aufgabe3-2.pdb
