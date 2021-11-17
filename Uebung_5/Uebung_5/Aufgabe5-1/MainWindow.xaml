@@ -1,0 +1,28 @@
+﻿<Window x:Class="Aufgabe5_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Aufgabe5_1"
+        mc:Ignorable="d"
+        Title="Rechner" Height="230" Width="250">
+	<Grid Height="180" VerticalAlignment="Top">
+		<Button x:Name="pb_eins" Content="1" HorizontalAlignment="Left" Margin="11,52,0,0" VerticalAlignment="Top" Width="45" Height="27" Click="pb_eins_Click"/>
+		<Button x:Name="pb_zwei" Content="2" HorizontalAlignment="Left" Margin="67,52,0,0" VerticalAlignment="Top" Width="45" Height="27" Click="pb_zwei_Click"/>
+		<Button x:Name="pb_drei" Content="3" HorizontalAlignment="Left" Margin="123,52,0,0" VerticalAlignment="Top" Width="45" Height="27" Click="pb_drei_Click"/>
+		<Button x:Name="pb_geteilt" Content="/" HorizontalAlignment="Left" Margin="176,51,0,0" VerticalAlignment="Top" Width="45" Height="27" Click="pb_geteilt_Click"/>
+		<Button x:Name="pb_vier" Content="4" HorizontalAlignment="Left" Margin="11,85,0,0" VerticalAlignment="Top" Width="45" Height="27" Click="pb_vier_Click"/>
+		<Button x:Name="pb_fuenf" Content="5" HorizontalAlignment="Left" Margin="67,85,0,0" VerticalAlignment="Top" Width="45" Height="27" Click="pb_fuenf_Click"/>
+		<Button x:Name="pb_sechs" Content="6" HorizontalAlignment="Left" Margin="123,85,0,0" VerticalAlignment="Top" Width="45" Height="27" Click="pb_sechs_Click"/>
+		<Button x:Name="pb_mal" Content="*" HorizontalAlignment="Left" Margin="176,84,0,0" VerticalAlignment="Top" Width="45" Height="27" Click="pb_mal_Click"/>
+		<Button x:Name="pb_sieben" Content="7" HorizontalAlignment="Left" Margin="11,119,0,0" VerticalAlignment="Top" Width="45" Height="26" Click="pb_sieben_Click"/>
+		<Button x:Name="pb_acht" Content="8" HorizontalAlignment="Left" Margin="67,119,0,0" VerticalAlignment="Top" Width="45" Height="26" Click="pb_acht_Click"/>
+		<Button x:Name="pb_neun" Content="9" HorizontalAlignment="Left" Margin="123,119,0,0" VerticalAlignment="Top" Width="45" Height="26" Click="pb_neun_Click"/>
+		<Button x:Name="pb_minus" Content="-" HorizontalAlignment="Left" Margin="176,118,0,0" VerticalAlignment="Top" Width="45" Height="27" Click="pb_minus_Click"/>
+		<Button x:Name="pb_komma" Content="," HorizontalAlignment="Left" Margin="11,151,0,0" VerticalAlignment="Top" Width="45" Height="27" Click="pb_komma_Click"/>
+		<Button x:Name="pb_null" Content="0" HorizontalAlignment="Left" Margin="67,151,0,0" VerticalAlignment="Top" Width="45" Height="27" Click="pb_null_Click"/>
+		<Button x:Name="pb_plus" Content="+" HorizontalAlignment="Left" Margin="123,151,0,0" VerticalAlignment="Top" Width="45" Height="27" Click="pb_plus_Click"/>
+		<Button x:Name="pb_gleich" Content="=" HorizontalAlignment="Left" Margin="176,151,0,2" Width="45" Click="pb_gleich_Click"/>
+		<TextBox x:Name="tb_rechnung" HorizontalAlignment="Left" Margin="11,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Height="37"/>
+	</Grid>
+</Window>
