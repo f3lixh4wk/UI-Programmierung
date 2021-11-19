@@ -1,0 +1,36 @@
+﻿<Window x:Class="Aufgabe5_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		  xmlns:meineKlassen="clr-namespace:MeineKlassen"
+		  mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+	<StackPanel>
+		<Label x:Name="label1" Width="288" Height="42">
+			<meineKlassen:Adresse Strasse="Meine Strasse" Hausnummer="1" Ort="Göttingen" Postleitzahl="12345"/>
+		</Label>
+		<Label x:Name="label2" Width="332" Height="42">
+			<meineKlassen:Person VollerName="ich" Geschlecht="Männlich">
+				<meineKlassen:Person.Adresse>
+					<meineKlassen:Adresse Strasse="Meine Strasse" Hausnummer="1" Ort="Göttingen" Postleitzahl="12345"/>
+				</meineKlassen:Person.Adresse>
+			</meineKlassen:Person>
+		</Label>
+		<Label x:Name="label3" Width="332" Height="42">
+			<Label.Content>
+				<meineKlassen:Person VollerName="ich" Geschlecht="Männlich">
+					<meineKlassen:Person.Adresse>
+						<meineKlassen:Adresse Strasse="Meine Strasse" Hausnummer="1" Ort="Göttingen" Postleitzahl="12345"/>
+					</meineKlassen:Person.Adresse>
+				</meineKlassen:Person>
+			</Label.Content>
+		</Label>
+		<Label x:Name="label4" Width="378" Height="42">
+			<meineKlassen:Person VollerName="ich" Geschlecht="Männlich" Adresse="Von-Ossietzky-Straße 99, 37085 Göttingen"/>
+		</Label>
+		<Label x:Name="label5" Width="420" Height="42">
+			<meineKlassen:Person VollerName="{x:Static Member=meineKlassen:Namen.Vorname}" Geschlecht="Männlich" Adresse="Von-Ossietzky-Straße 99, 37085 Göttingen"/>
+		</Label>
+	</StackPanel>
+</Window>

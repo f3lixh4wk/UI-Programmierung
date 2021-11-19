@@ -5,6 +5,7 @@ D:\Dokumente\HAWK\WiSe 21-22\Userinterface Programmierung\Uebung_Praktikum\Aufga
 D:\Dokumente\HAWK\WiSe 21-22\Userinterface Programmierung\Uebung_Praktikum\Aufgabenstellung\UI-Programmierung\Uebung_5\Uebung_5\Aufgabe5-4\bin\Debug\net5.0-windows\Aufgabe5-4.dll
 D:\Dokumente\HAWK\WiSe 21-22\Userinterface Programmierung\Uebung_Praktikum\Aufgabenstellung\UI-Programmierung\Uebung_5\Uebung_5\Aufgabe5-4\bin\Debug\net5.0-windows\ref\Aufgabe5-4.dll
 D:\Dokumente\HAWK\WiSe 21-22\Userinterface Programmierung\Uebung_Praktikum\Aufgabenstellung\UI-Programmierung\Uebung_5\Uebung_5\Aufgabe5-4\bin\Debug\net5.0-windows\Aufgabe5-4.pdb
+D:\Dokumente\HAWK\WiSe 21-22\Userinterface Programmierung\Uebung_Praktikum\Aufgabenstellung\UI-Programmierung\Uebung_5\Uebung_5\Aufgabe5-4\obj\Debug\net5.0-windows\Aufgabe5-4.csproj.AssemblyReference.cache
 D:\Dokumente\HAWK\WiSe 21-22\Userinterface Programmierung\Uebung_Praktikum\Aufgabenstellung\UI-Programmierung\Uebung_5\Uebung_5\Aufgabe5-4\obj\Debug\net5.0-windows\MainWindow.g.cs
 D:\Dokumente\HAWK\WiSe 21-22\Userinterface Programmierung\Uebung_Praktikum\Aufgabenstellung\UI-Programmierung\Uebung_5\Uebung_5\Aufgabe5-4\obj\Debug\net5.0-windows\App.g.cs
 D:\Dokumente\HAWK\WiSe 21-22\Userinterface Programmierung\Uebung_Praktikum\Aufgabenstellung\UI-Programmierung\Uebung_5\Uebung_5\Aufgabe5-4\obj\Debug\net5.0-windows\Aufgabe5-4_MarkupCompile.cache

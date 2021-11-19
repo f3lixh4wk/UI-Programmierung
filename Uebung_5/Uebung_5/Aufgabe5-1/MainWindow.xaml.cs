@@ -158,7 +158,14 @@ namespace Aufgabe5_1
 			string[] subs = calculationText.Split(currentOperator);
 			double zahl1 = 0;
 			double zahl2 = 0;
-			if(subs.Length == 3 && calculationText.StartsWith(currentOperator))
+			if(subs.Length == 4 && calculationText.StartsWith(currentOperator))
+			{
+				// zwei Minuszeichen hintereinander eingegeben
+				currentOperator = '+';
+				zahl1 = Convert.ToDouble(subs.ElementAt(1)) * -1;
+				zahl2 = Convert.ToDouble(subs.ElementAt(3));
+			}
+			else if (subs.Length == 3 && calculationText.StartsWith(currentOperator))
 			{
 				zahl1 = Convert.ToDouble("-" + subs.ElementAt(1));
 				zahl2 = Convert.ToDouble(subs.ElementAt(2));
@@ -177,6 +184,7 @@ namespace Aufgabe5_1
 			}
 			else
 			{
+				subs = subs.Where(s => !string.IsNullOrWhiteSpace(s)).ToArray();
 				zahl1 = Convert.ToDouble(subs.First());
 				zahl2 = Convert.ToDouble(subs.Last());
 			}

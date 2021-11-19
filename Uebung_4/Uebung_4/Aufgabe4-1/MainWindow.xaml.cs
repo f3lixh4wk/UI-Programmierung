@@ -21,44 +21,40 @@ namespace Aufgabe4_1
 	/// </summary>
 	public partial class MainWindow : Window
 	{
-		bool? rückwarts;
-		Brush textBrush;
-		FontFamily textFont;
 		public MainWindow()
 		{
 			InitializeComponent();
-			textBrush = textBox.Foreground;
-			textFont = textBox.FontFamily;
+			textBlock.Text = "Hier könnte ihre Werbung stehen";
 		}
 
 		private void rb_Schwarz_Checked(object sender, RoutedEventArgs e)
 		{
-			textBrush = Brushes.Black;
+			textBlock.Foreground = Brushes.Black;
 		}
 
 		private void rb_Rot_Checked(object sender, RoutedEventArgs e)
 		{
-			textBrush = Brushes.Red;
+			textBlock.Foreground = Brushes.Red;
 		}
 
 		private void rb_Gruen_Checked(object sender, RoutedEventArgs e)
 		{
-			textBrush = Brushes.Green;
+			textBlock.Foreground = Brushes.Green;
 		}
 
 		private void rb_TimesNewRoman_Checked(object sender, RoutedEventArgs e)
 		{
-			textFont = new FontFamily("Times New Roman");
+			textBlock.FontFamily = new FontFamily("Times New Roman");
 		}
 
 		private void rb_ComicSansMS_Checked(object sender, RoutedEventArgs e)
 		{
-			textFont = new FontFamily("Comic Sans MS");
+			textBlock.FontFamily = new FontFamily("Comic Sans MS");
 		}
 
 		private void rb_Arial_Checked(object sender, RoutedEventArgs e)
 		{
-			textFont = new FontFamily("Arial");
+			textBlock.FontFamily = new FontFamily("Arial");
 		}
 
 		private void pb_Übertragen_Click(object sender, RoutedEventArgs e)
@@ -70,10 +66,7 @@ namespace Aufgabe4_1
 				Array.Reverse(charArray);
 				text = new string(charArray);
 			}
-
 			textBlock.Text = text;
-			textBlock.Foreground = textBrush;
-			textBlock.FontFamily = textFont;
 		}
 	}
 }
