@@ -6,21 +6,22 @@
         xmlns:local="clr-namespace:Aufgabe7_1"
         mc:Ignorable="d"
         Title="Übung 7, Aufgabe 1" Height="450" Width="800">
-    <Grid>
+	<DockPanel>
 		<Menu DockPanel.Dock="Top">
 			<MenuItem Header="Datei">
-				<MenuItem Header="Speichern..." />
-				<MenuItem Header="Laden..." />
+				<MenuItem Header="Speichern..." Click="OnSpeichern"/>
+				<MenuItem Header="Laden..." Click="OnLaden"/>
 				<Separator />
-				<MenuItem Header="Beenden" />
+				<MenuItem Header="Beenden" Click="OnBeenden"/>
 			</MenuItem>
 			<MenuItem Header="Bearbeiten">
-				<MenuItem Header="Alles auswählen"/>
-				<MenuItem Header="Kopieren"/>
-				<MenuItem Header="Ausschneiden"/>
-				<MenuItem Header="Einfügen"/>
-				<MenuItem Header="Suchen…:"/>
+				<MenuItem Header="Alles auswählen" Command="SelectAll"/>
+				<MenuItem Header="Kopieren" Command="Copy"/>
+				<MenuItem Header="Ausschneiden" Command="Cut"/>
+				<MenuItem Header="Einfügen" Command="Paste"/>
+				<MenuItem Header="Suchen…:" Click="OnSuchen"/>
 			</MenuItem>
 		</Menu>
-	</Grid>
+		<TextBox x:Name="tb" AcceptsReturn="True" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto"/>
+	</DockPanel>
 </Window>
