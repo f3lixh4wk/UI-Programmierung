@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Uebung6_1
+namespace Uebung6_2
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,29 +23,27 @@ namespace Uebung6_1
         public MainWindow()
         {
             InitializeComponent();
+        }
+        private void OnWindowPrev(object sender, RoutedEventArgs e)
+        {
+            TextBoxOutput.AppendText("Tunneling auf Window \n");
 
         }
 
-        private void OnWindow(object sender, RoutedEventArgs e)
+        private void OnMainGridPrev(object sender, RoutedEventArgs e)
         {
-            TextBoxOutput.AppendText("Bubbling auf Window \n");
+            TextBoxOutput.AppendText("Tunneling auf MainGrid\n");
+
+        }
+        private void OnGridButtonsPrev(object sender, RoutedEventArgs e)
+        {
+            TextBoxOutput.AppendText("Tunneling auf GridButton \n");
 
         }
 
-        private void OnMainGrid(object sender, RoutedEventArgs e)
+        private void OnButtonPrev(object sender, RoutedEventArgs e)
         {
-            TextBoxOutput.AppendText("Bubbling auf MainGrid \n");
-
-        }
-        private void OnGridButtons(object sender, RoutedEventArgs e)
-        {
-            TextBoxOutput.AppendText("Bubbling auf GridButtons \n");
-
-        }
-
-        private void OnButton(object sender, RoutedEventArgs e)
-        {
-            TextBoxOutput.AppendText("Bubbling auf Button \n");
+            TextBoxOutput.AppendText("Tunneling auf Button \n");
 
         }
     }
