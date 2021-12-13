@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>Aufgabe8_1</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="questionMark.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="questionMark.jpg" />
+  </ItemGroup>
+
+</Project>

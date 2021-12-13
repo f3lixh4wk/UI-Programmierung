@@ -1,0 +1,71 @@
+﻿<Window x:Class="Aufgabe9_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Aufgabe9_1"
+        mc:Ignorable="d"
+        Title="Uebung9_Aufgabe9-1" Height="220" Width="520">
+	<Window.Resources>
+		<ControlTemplate x:Key="ButtonTemplate1" TargetType="Button">
+			<Grid>
+				<Ellipse x:Name="ButtonEllipse1" Height="120" Width="500">
+					<Ellipse.Fill>
+						<LinearGradientBrush StartPoint="0,0" EndPoint="4,0">
+							<GradientStop Offset="0" Color="Cyan" />
+							<GradientStop Offset="1" Color="Orange" />
+						</LinearGradientBrush>
+					</Ellipse.Fill>
+				</Ellipse>
+				<Ellipse x:Name="ButtonEllipse2" Height="120" Width="120">
+					<Ellipse.Fill>
+						<LinearGradientBrush StartPoint="0.5,0.6" EndPoint="0,0">
+							<GradientStop Offset= "0" Color="Blue" />
+							<GradientStop Offset= "1" Color="White" />
+						</LinearGradientBrush>
+					</Ellipse.Fill>
+				</Ellipse>
+				<ContentPresenter Content="{TemplateBinding Content}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+			</Grid>
+			<ControlTemplate.Triggers>
+				<Trigger Property="IsMouseOver" Value="True">
+					<Setter TargetName="ButtonEllipse1" Property="Fill" Value="Red"/>
+				</Trigger>
+				<Trigger Property="IsPressed" Value="True">
+					<Setter Property="RenderTransform">
+						<Setter.Value>
+							<ScaleTransform ScaleX="0.9" ScaleY="0.9"/>
+						</Setter.Value>
+					</Setter>
+					<Setter Property="RenderTransformOrigin" Value="0.5,0.5"/>
+				</Trigger>
+			</ControlTemplate.Triggers>
+		</ControlTemplate>
+		<Style TargetType="{x:Type Button}">
+			<Style.Triggers>
+				<EventTrigger RoutedEvent="MouseEnter">
+					<EventTrigger.Actions>
+						<BeginStoryboard>
+							<Storyboard>
+								<DoubleAnimation Duration="0" Storyboard.TargetProperty="FontSize" To="36" />
+							</Storyboard>
+						</BeginStoryboard>
+					</EventTrigger.Actions>
+				</EventTrigger>
+				<EventTrigger RoutedEvent="MouseLeave">
+					<EventTrigger.Actions>
+						<BeginStoryboard>
+							<Storyboard>
+								<DoubleAnimation Duration="0" Storyboard.TargetProperty="FontSize" To="20" />
+							</Storyboard>
+						</BeginStoryboard>
+					</EventTrigger.Actions>
+				</EventTrigger>
+			</Style.Triggers>
+		</Style>
+	</Window.Resources>
+	<StackPanel>
+		<Button Content="Button Template" Foreground="White" Template="{StaticResource ButtonTemplate1}"/>
+		<Button Content="Standard Button" Height="50"/>
+	</StackPanel>
+</Window>

@@ -1,0 +1,16 @@
+<<<<<<< HEAD:Uebung_6/Uebung_6/Aufgabe6-2/App.xaml
+﻿<Application x:Class="Aufgabe6_2.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Aufgabe6_2"
+=======
+﻿<Application x:Class="Uebung6_2.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Uebung6_2"
+>>>>>>> b9d6ebdbdea527c460c98f7f4d5c5fbd9b40e939:Uebung_9/Uebung_9/Uebung6_2/App.xaml
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

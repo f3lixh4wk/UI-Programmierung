@@ -1,0 +1,33 @@
+﻿<Window x:Class="Aufgabe8_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Aufgabe8_1"
+        mc:Ignorable="d"
+        Title="BackgroundWorkerProgress" Height="450" Width="800">
+	<Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="1*" />
+			<ColumnDefinition Width="1*" />
+			<ColumnDefinition Width="1*" />
+		</Grid.ColumnDefinitions>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="1*" />
+			<RowDefinition Height="1*" />
+			<RowDefinition Height="1*" />
+			<RowDefinition Height="0.25*"/>
+		</Grid.RowDefinitions>
+		<Button x:Name="btn_red" Click="btn_Click">rot</Button>
+		<Button x:Name="btn_oben" Click="btn_Click" Grid.Column="2">oben</Button>
+		<Button x:Name="btn_gelb" Click="btn_Click" Grid.Row="1">gelb</Button>
+		<Button x:Name="btn_gruen" Click="btn_Click" Grid.Row="2">grün</Button>
+		<Button x:Name="btn_mitte" Click="btn_Click" Grid.Row="1" Grid.Column="2">mitte</Button>
+		<Button x:Name="btn_unten" Click="btn_Click" Grid.Row="2" Grid.Column="2">unten</Button>
+		<Button x:Name="btn_questionMark" Grid.Row="1" Grid.Column="1" Background="Blue">
+			<Image x:Name="questionMark" Source="/questionMark.jpg" Margin="0,15,0,15"></Image>
+		</Button>
+		<Canvas Grid.Row="3" Grid.ColumnSpan="3" Background="Beige"/>
+		<local:Zeitfresser Grid.Row="3" VerticalAlignment="Center"/>
+	</Grid>
+</Window>

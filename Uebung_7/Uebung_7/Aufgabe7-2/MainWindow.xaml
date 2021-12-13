@@ -1,0 +1,15 @@
+﻿<Window x:Class="Aufgabe7_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Aufgabe7_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+	<Canvas x:Name="cnv">
+		<Button x:Name="btn" Canvas.Top="50" Canvas.Left="50" Width="Auto" Height ="Auto"  Content="Versuch's doch!" MouseEnter="OnFrame_MouseEnter" >
+		</Button>
+		<Slider x:Name="sld"  Width="50" Canvas.Top="10" Canvas.Left="10" Minimum="1" Maximum="5" ValueChanged="OnSlider_ValueChanged"></Slider>
+		<Rectangle x:Name="rect" Width="80" Height="40" ></Rectangle>
+	</Canvas>
+</Window>

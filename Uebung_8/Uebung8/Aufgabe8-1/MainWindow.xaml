@@ -1,0 +1,34 @@
+﻿<Window x:Class="Aufgabe8_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Aufgabe8_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="550">
+	<Canvas Width="500" Height="500" Margin="10,5,10,5" Background ="LightGray">
+		<Polygon Points="0,0 0,100 300,100, 300,0 150, 50" Fill="Green" Stroke="Black"  StrokeThickness="3" Canvas.Left="100" Panel.ZIndex="3"></Polygon>
+		<Rectangle Width="300" Height="200" Fill="Blue" Stroke="Black" StrokeThickness="3" Canvas.Left="100" Canvas.Top="100"></Rectangle>
+		<Ellipse Height="200" Width="150" Fill ="Red" Stroke="Yellow" StrokeThickness ="3" Panel.ZIndex="1" Canvas.Left="100" Canvas.Top="100"></Ellipse>
+		<Ellipse Height="200" Width="150" Fill ="Red" Stroke="Yellow" StrokeThickness ="3" Panel.ZIndex="1" Canvas.Left="250" Canvas.Top="100"></Ellipse>
+		<Line X1="50" Y1="50" X2="50" Stroke="Black" StrokeThickness="3" Canvas.Left ="125" Canvas.Top="175"  Panel.ZIndex="6"></Line>
+		<Line X1="50" Stroke="Black" StrokeThickness="3" Canvas.Left ="150" Canvas.Top="200"  Panel.ZIndex="6"></Line>
+		<Path Stroke="Black" StrokeThickness="3" Fill="Purple">
+			<Path.Data>
+				<CombinedGeometry GeometryCombineMode="Xor">
+					<CombinedGeometry.Geometry1>
+						<EllipseGeometry Center="250,350" RadiusX="150" RadiusY="50"></EllipseGeometry>
+					</CombinedGeometry.Geometry1>
+					<CombinedGeometry.Geometry2>
+						<EllipseGeometry Center="250,400" RadiusX="50" RadiusY="100"></EllipseGeometry>
+					</CombinedGeometry.Geometry2>
+				</CombinedGeometry>
+			</Path.Data>
+		</Path>
+		<Rectangle Width="50" Height="50" Stroke="Black" StrokeThickness="3" Fill ="Black" Canvas.Left="290" Canvas.Top="165" Panel.ZIndex="4">
+			<Rectangle.LayoutTransform>
+				<RotateTransform Angle="45"></RotateTransform>
+			</Rectangle.LayoutTransform>
+		</Rectangle>
+	</Canvas>
+</Window>

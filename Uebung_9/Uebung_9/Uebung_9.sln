@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+<<<<<<< HEAD:Uebung_9/Uebung_9/Uebung_9.sln
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aufgabe9-1", "Aufgabe9-1\Aufgabe9-1.csproj", "{1592517E-2666-43C8-BA33-7D0CE0F56880}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uebung6_2", "Uebung6_2\Uebung6_2.csproj", "{DCD834FF-224D-45F6-99C1-EFA4131BC74E}"
+>>>>>>> b9d6ebdbdea527c460c98f7f4d5c5fbd9b40e939:Uebung_9/Uebung_9/Uebung6_2.sln
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+<<<<<<< HEAD:Uebung_9/Uebung_9/Uebung_9.sln
+		{1592517E-2666-43C8-BA33-7D0CE0F56880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1592517E-2666-43C8-BA33-7D0CE0F56880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1592517E-2666-43C8-BA33-7D0CE0F56880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1592517E-2666-43C8-BA33-7D0CE0F56880}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{DCD834FF-224D-45F6-99C1-EFA4131BC74E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCD834FF-224D-45F6-99C1-EFA4131BC74E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCD834FF-224D-45F6-99C1-EFA4131BC74E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCD834FF-224D-45F6-99C1-EFA4131BC74E}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> b9d6ebdbdea527c460c98f7f4d5c5fbd9b40e939:Uebung_9/Uebung_9/Uebung6_2.sln
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+<<<<<<< HEAD:Uebung_9/Uebung_9/Uebung_9.sln
+		SolutionGuid = {EEE1D8D4-1DE1-47DC-AF1D-6CEA10055491}
+=======
+		SolutionGuid = {4F30CDF3-9F04-4D9B-AD5F-649649E9BE50}
+>>>>>>> b9d6ebdbdea527c460c98f7f4d5c5fbd9b40e939:Uebung_9/Uebung_9/Uebung6_2.sln
+	EndGlobalSection
+EndGlobal

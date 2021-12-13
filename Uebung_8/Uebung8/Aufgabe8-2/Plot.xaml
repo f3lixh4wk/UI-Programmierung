@@ -1,0 +1,41 @@
+﻿<Window x:Class="Aufgabe8_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Aufgabe8_2"
+        mc:Ignorable="d"
+		  
+        Title="PlotTest" Height="800" Width="800">
+	<Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition></ColumnDefinition>
+			<ColumnDefinition></ColumnDefinition>
+		</Grid.ColumnDefinitions>
+		<Grid.RowDefinitions>
+			<RowDefinition></RowDefinition>
+			<RowDefinition></RowDefinition>
+		</Grid.RowDefinitions>
+		<StackPanel Grid.Row="0" Grid.Column="0" Margin="0, 150">
+			<RadioButton x:Name="rb_Sin" Content="Sin" Checked="rb_Checked"/>
+			<RadioButton x:Name="rb_Cos" Content="Cos" Checked="rb_Checked"/>
+			<RadioButton x:Name="rb_Tan" Content="Tan" Checked="rb_Checked"/>
+		</StackPanel>
+		<local:Plot x:Name="plot" Background="LightGray" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="1" Grid.ColumnSpan="2" />
+		<StackPanel/>
+		<StackPanel Grid.Row="0" Grid.Column="1" Width="50" Height="150" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10, 10">
+			<Label Content="XMin" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+			<Label Content="XMax" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+			<Label Content="YMin" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+			<Label Content="YMax" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+			<Label Content="DT" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+		</StackPanel>
+		<StackPanel Grid.Row="0" Grid.Column="1" Width="100" Height="150" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="70, 10">
+			<TextBox x:Name="tb_XMin" Margin="0,4" LostFocus="TextBox_LostFocus"></TextBox>
+			<TextBox x:Name="tb_XMax" Margin="0,4" LostFocus="TextBox_LostFocus"></TextBox>
+			<TextBox x:Name="tb_YMin" Margin="0,4" LostFocus="TextBox_LostFocus"></TextBox>
+			<TextBox x:Name="tb_YMax" Margin="0,4" LostFocus="TextBox_LostFocus"></TextBox>
+			<TextBox x:Name="tb_DT" Margin="0,4" LostFocus="TextBox_LostFocus"></TextBox>
+		</StackPanel>
+	</Grid>
+</Window>
